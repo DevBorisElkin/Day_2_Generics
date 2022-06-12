@@ -21,12 +21,9 @@ public class Veterinarian{
         
         print("\(somePet.petName) был вылечен")
     }
-    
-    
-    
 }
 
 public protocol Lockable{
-    // Можно было бы и не указывать 
+    // Можно было бы и не указывать первый аргумент, он здесь только для того чтобы показать использование дженериков
     func LockTheObject<T>(someObject: T)
 }

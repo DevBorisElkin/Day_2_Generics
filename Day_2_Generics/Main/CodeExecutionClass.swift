@@ -36,13 +36,17 @@ public func executeTheCode(){
     
     var pets = [Cat(petName: "Mysechka", hungerLevel: 4), Dog(petName: "Bobik", hungerLevel: 2), Cat(petName: "Boris", hungerLevel: 24)]
     
-    // Посмотри метод cureThePet
-    if var firstPet = pets.first{
-        someVeterinatian.cureThePet(somePet: firstPet)
-    }else{
-        print("The array is empty")
+    // Полезная ссылка про кастинг
+    // https://abhimuralidharan.medium.com/typecastinginswift-1bafacd39c99
+    for pet in pets{
+        
+        // Тут проверили, является ли наш питомец именно собакой, т.к. именно собаку можно закрепить(т.к. собака имплементирует протокол Lockable - и после закрепления врач может ее вылечить т.к. метод лечения принимает любые классы которые являются питомцами, и имплементируют протокол Lockable)
+        if pet is Dog{
+            var dogPet = pet as! Dog
+            someVeterinatian.cureThePet(somePet: dogPet)
+        }
+        
     }
-    
 }
 
 // T = дженерик любого типа (максимально абстрактный), можно использовать любое название, то есть вместо "Т" использовать "Hello", "SomeType" "XYZ" и т.д. Если в дженериках указывается несколько значений, то общепринятые буквы для использования "T", "Y" и др.

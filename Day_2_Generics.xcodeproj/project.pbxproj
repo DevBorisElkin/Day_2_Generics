@@ -14,10 +14,8 @@
 		527FCD852854E316008C5C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527FCD842854E316008C5C84 /* Assets.xcassets */; };
 		527FCD882854E316008C5C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527FCD862854E316008C5C84 /* LaunchScreen.storyboard */; };
 		527FCD912854E40F008C5C84 /* CodeExecutionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD902854E40F008C5C84 /* CodeExecutionClass.swift */; };
-		527FCD932854E695008C5C84 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD922854E695008C5C84 /* Pet.swift */; };
-		527FCD952854EB87008C5C84 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD942854EB87008C5C84 /* Cat.swift */; };
-		527FCD972854EBCB008C5C84 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD962854EBCB008C5C84 /* Dog.swift */; };
 		527FCD992854ED34008C5C84 /* Veterinarian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD982854ED34008C5C84 /* Veterinarian.swift */; };
+		527FCD9B2856598F008C5C84 /* AllAnimalsDeclaredHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD9A2856598F008C5C84 /* AllAnimalsDeclaredHere.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +28,8 @@
 		527FCD872854E316008C5C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527FCD892854E316008C5C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		527FCD902854E40F008C5C84 /* CodeExecutionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExecutionClass.swift; sourceTree = "<group>"; };
-		527FCD922854E695008C5C84 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
-		527FCD942854EB87008C5C84 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
-		527FCD962854EBCB008C5C84 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		527FCD982854ED34008C5C84 /* Veterinarian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veterinarian.swift; sourceTree = "<group>"; };
+		527FCD9A2856598F008C5C84 /* AllAnimalsDeclaredHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAnimalsDeclaredHere.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				527FCD902854E40F008C5C84 /* CodeExecutionClass.swift */,
-				527FCD922854E695008C5C84 /* Pet.swift */,
-				527FCD942854EB87008C5C84 /* Cat.swift */,
-				527FCD962854EBCB008C5C84 /* Dog.swift */,
 				527FCD982854ED34008C5C84 /* Veterinarian.swift */,
+				527FCD9A2856598F008C5C84 /* AllAnimalsDeclaredHere.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -161,10 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527FCD932854E695008C5C84 /* Pet.swift in Sources */,
-				527FCD972854EBCB008C5C84 /* Dog.swift in Sources */,
 				527FCD912854E40F008C5C84 /* CodeExecutionClass.swift in Sources */,
-				527FCD952854EB87008C5C84 /* Cat.swift in Sources */,
+				527FCD9B2856598F008C5C84 /* AllAnimalsDeclaredHere.swift in Sources */,
 				527FCD802854E312008C5C84 /* ViewController.swift in Sources */,
 				527FCD992854ED34008C5C84 /* Veterinarian.swift in Sources */,
 				527FCD7C2854E312008C5C84 /* AppDelegate.swift in Sources */,
