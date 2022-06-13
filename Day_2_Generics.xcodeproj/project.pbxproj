@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5250675C2857952700E94A30 /* UpcastingDowncastingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250675B2857952700E94A30 /* UpcastingDowncastingExample.swift */; };
 		527FCD7C2854E312008C5C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD7B2854E312008C5C84 /* AppDelegate.swift */; };
 		527FCD7E2854E312008C5C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD7D2854E312008C5C84 /* SceneDelegate.swift */; };
 		527FCD802854E312008C5C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527FCD7F2854E312008C5C84 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5250675B2857952700E94A30 /* UpcastingDowncastingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcastingDowncastingExample.swift; sourceTree = "<group>"; };
 		527FCD782854E312008C5C84 /* Day_2_Generics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day_2_Generics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527FCD7B2854E312008C5C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527FCD7D2854E312008C5C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5250675A2857950700E94A30 /* UpcastingDownCasting */ = {
+			isa = PBXGroup;
+			children = (
+				5250675B2857952700E94A30 /* UpcastingDowncastingExample.swift */,
+			);
+			path = UpcastingDownCasting;
+			sourceTree = "<group>";
+		};
 		527FCD6F2854E312008C5C84 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		527FCD7A2854E312008C5C84 /* Day_2_Generics */ = {
 			isa = PBXGroup;
 			children = (
+				5250675A2857950700E94A30 /* UpcastingDownCasting */,
 				527FCD8F2854E3F5008C5C84 /* Main */,
 				527FCD7B2854E312008C5C84 /* AppDelegate.swift */,
 				527FCD7D2854E312008C5C84 /* SceneDelegate.swift */,
@@ -158,6 +169,7 @@
 				527FCD912854E40F008C5C84 /* CodeExecutionClass.swift in Sources */,
 				527FCD9B2856598F008C5C84 /* AllAnimalsDeclaredHere.swift in Sources */,
 				527FCD802854E312008C5C84 /* ViewController.swift in Sources */,
+				5250675C2857952700E94A30 /* UpcastingDowncastingExample.swift in Sources */,
 				527FCD992854ED34008C5C84 /* Veterinarian.swift in Sources */,
 				527FCD7C2854E312008C5C84 /* AppDelegate.swift in Sources */,
 				527FCD7E2854E312008C5C84 /* SceneDelegate.swift in Sources */,
